@@ -17,13 +17,11 @@ public class ParserManager implements Serializable {
 	private List<String> expenseCategories = new ArrayList<String>();
 	private List<String> incomeCategories = new ArrayList<String>();
 
-	public static final String[] DEFAULT_CATEGORIES = { "Gem konto", "CSN",
-			"AEA", "Avbet. bil", "Hyresgästför.", "Bensin", "Skånekort",
-			"Äta ute", "Hem (Möbler, inredining, etc)","Kläder & skor", "Bil övrigt",
-			"Nöjen övrigt", "Sparande", "Övrigt", };
+	public static final String[] DEFAULT_CATEGORIES = { "Common account", "Housing",
+			"Hobbies", "Loans", "Insurances", "Subscription", "Car",
+			"Traveling", "Clothes", "Other" };
 
-	public static String[] DEFAULT_INCOME_CATEGORIES = { "Lön",
-			"Försvarsmakten", "Från Jenny", };
+	public static String[] DEFAULT_INCOME_CATEGORIES = { "Pay", "Other", };
 
 	/**
 	 * @param args

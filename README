@@ -1,1 +1,3 @@
 Swedbank parser
+
+Parse your Swedbank account history and generate MS excel sheets. Requires jxlApi http://jexcelapi.sourceforge.net/
